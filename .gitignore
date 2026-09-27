@@ -1,0 +1,13 @@
+# 暂时只向仓库公开 README、许可证，以及 README 顶部的海报图。
+**
+!.gitignore
+!README.md
+!LICENSE
+!LICENSE.*
+
+# docs/ 只放行 README 引用到的图片，其余内容（设计稿 / 宣传物料 / 内部文档）仍不公开。
+# 注意：必须先放行目录本身，git 才会进去看；再用 docs/* 兜底，最后逐个放行文件。
+!docs/
+docs/*
+!docs/OTMUSIC.png
+!docs/歌单.png
